@@ -20,13 +20,13 @@
         <StackPanel Orientation="Horizontal">
             <Button x:Name="btnTong" Width="79" Margin="10" Click="BtnTong_Click" Height="28">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="pack://application:,,,/Images/sum.png" Height="20" Width="17"/>
+                    <Image Source="pack://siteoforigin:,,,/Images/sum.png" Height="20" Width="17"/>
                     <TextBlock Margin="5,0">Tổng</TextBlock>
                 </StackPanel>
             </Button>
             <Button x:Name="btnThoat" Width="76" Margin="10" Click="BtnThoat_Click" Height="25">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="pack://application:,,,/Images/thoat.png" Height="42" Width="12"/>
+                    <Image Source="pack://siteoforigin:,,,/Images/thoat.png" Height="42" Width="12"/>
                     <TextBlock Margin="5,0" Height="17">Thoát</TextBlock>
                 </StackPanel>
             </Button>
