@@ -1,0 +1,30 @@
+﻿<Window x:Class="CheckBoxControlEvent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheckBoxControlEvent"
+        mc:Ignorable="d"
+        Title="Checkbox Event Control" Height="450" Width="800">
+    <StackPanel>
+        <Label>Nani ga suki?</Label>
+        <CheckBox Name="chkToanBo" 
+                  Checked="ChkToanBo_Checked" 
+                  Unchecked="ChkToanBo_Unchecked">Mochiron</CheckBox>
+        <StackPanel Margin="20,0">
+            <CheckBox x:Name="chkChocoMinto" 
+                  Checked="chkSub_CheckedChanged"
+                  Unchecked="chkSub_CheckedChanged">Choco Minto</CheckBox>
+            <CheckBox x:Name="chkSutoroberii" 
+           Checked="chkSub_CheckedChanged"
+           Unchecked="chkSub_CheckedChanged">Sutoroberii fureibaa</CheckBox>
+            <CheckBox x:Name="chkKukkii" 
+           Checked="chkSub_CheckedChanged"
+           Unchecked="chkSub_CheckedChanged">Kukkii and kuriimu</CheckBox>
+            <CheckBox x:Name="chkAnata" 
+           Checked="chkSub_CheckedChanged"
+           Unchecked="chkSub_CheckedChanged">Anata~</CheckBox>
+        </StackPanel>
+    </StackPanel>
+    
+</Window>
