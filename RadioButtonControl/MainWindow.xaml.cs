@@ -31,6 +31,10 @@ namespace RadioButtonControl
             {
                 binhChon = radTot.Content + "";
             }
+            else if (radTamDuoc.IsChecked == true)
+            {
+                binhChon=radTamDuoc.Content + "";
+            }
             else if (radKhongTot.IsChecked == true)
             {
                 binhChon = radKhongTot.Content + "";
